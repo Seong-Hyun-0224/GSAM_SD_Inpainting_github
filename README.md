@@ -162,12 +162,36 @@ Results are organized by task in separate output directories:
 
 ## License
 
-Please refer to the individual model licenses for usage terms.
+This project combines multiple models with different licenses. Please review the individual licenses:
+
+### Model Licenses
+
+| Model | License | Details |
+|-------|---------|---------|
+| **Grounding DINO** | Apache 2.0 | Open-source license, suitable for commercial and research use |
+| **Segment Anything Model (SAM)** | Apache 2.0 | Open-source license, developed by Meta AI |
+| **Stable Diffusion 2** | OpenRAIL-M | Responsible AI License that permits research and commercial use with certain restrictions |
+
+### Important Notes
+
+- **Grounding DINO** (Apache 2.0): Can be freely used for both commercial and non-commercial purposes with proper attribution.
+
+- **SAM** (Apache 2.0): Licensed under Apache 2.0, permitting use in academic and commercial projects. The dataset (SA-1B) is available under its own research license.
+
+- **Stable Diffusion 2** (OpenRAIL-M): This model includes use restrictions to prevent misuse. Users must comply with the OpenRAIL-M license terms, which prohibit using the model for generating harmful content including illegal activities, deception, and hate speech.
+
+For commercial use or concerns about compliance, please review:
+- [OpenRAIL License](https://huggingface.co/spaces/stabilityai/stable-diffusion-license)
+- [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
+
+### Citation
+
+If you use this work and the integrated models, please cite the respective papers and acknowledge the model authors.
 
 ## Authors
 
-DGIST DIP Lab
+Seong Hyun, Kim | DGIST MBIS(Multimodal Biomedical Imaging and System) Lab
 
 ---
 
-For issues, questions, or contributions, please create an issue or submit a pull request.
+For issues, questions, or contributions, please create an issue or submit a pull request or email rlatjdgus224@dgist.ac.kr.
